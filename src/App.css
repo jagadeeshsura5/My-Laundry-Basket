@@ -1,0 +1,77 @@
+li:hover{
+  opacity:90;
+  color:black;
+  border-radius: 10px;
+  border-color: aliceblue;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+body{
+  background: rgb(23, 211, 228);
+
+}
+.heading{
+  color: rgb(181, 10, 184);
+
+  text-shadow: darkgray;
+}
+#me{
+  position:absolute;
+  opacity:90%;
+  width:100%;
+  object-fit: cover;
+  height:100%;
+  z-index:-1;
+  margin-top: -180px;
+}
+.logn{
+  cursor: default;
+}
+
+#services{
+  margin-top: 50vh;
+  background-color: rgb(76, 158, 240);
+
+  width: 100%;
+  height: 50%;
+  
+  color: rgb(0, 0, 0);
+}
+.footer{
+  background-color:black;
+  color:rgb(246, 153, 15);
+  padding:15px
+}
+#abtimg{
+  border-radius: 15%;
+  padding :20px
+} 
+.rounded:hover{
+  background: rgb(255, 251, 254);
+}
+
+
+#font_style{
+  font-family: 'Kdam Thmor Pro', italic;
+  font-size:2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+#tit{
+  font-family: 'Kdam Thmor Pro', roboto;
+  font-size:2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.heder{
+  font-family: 'Kdam Thmor Pro', italic;
+  padding: 10px;
+  margin-left: 1rem;
+}
+
+
+.modal-dialog {
+  max-width: 850px;
+  margin: 2rem auto;
+  height: 100%;
+}
